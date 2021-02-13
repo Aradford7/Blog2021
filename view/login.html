@@ -4,24 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-       <!--Bootstrap-->
-       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-       <!--CSS STYLES-->
-       <link rel="stylesheet" href="../design_files/css/style.css">
-
-       
-        <!-- MATERIAL DESIGN ICONIC FONT -->
-        <link rel="stylesheet" href="../design_files/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
-       
-    <title>Login!</title>
-</head>
-
-<body>
-    <h1> Login Page</h1>
+    <!--CSS STYLES-->
+    <link rel="stylesheet" href="../design_files/css/style.css">
 
     
+    <!-- MATERIAL DESIGN ICONIC FONT -->
+    <link rel="stylesheet" href="../design_files/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+    <title>Login</title>
+</head>
+<body>
+
+
+    <div class="wrapper" style="background-image:url('../design_files/images/loginback.jpg');">
+       <div class="inner">
+           <div class="image-holder">
+                <img src="../design_files/images/login.jpg">
+           </div>
+        <form action="">
+            <h3>Login</h3>
+            <div class="form-wrapper">
+                <input id="email" type="email" placeholder="Email Address" class="form-control">
+                <i class="zmdi zmdi zmdi-email"></i>
+            </div>
+            
+            <div class="form-wrapper">
+                <input id="password" type="password" placeholder="Password" class="form-control">
+                <i class="zmdi zmdi zmdi-lock"></i>
+            </div>
+    
+            <div class="form-group container-login100-form-btn">
+                <button id="btn-login" type="button">
+                    Login
+                    <i class="zmdi zmdi-arrow-right"></i>
+                </button>
+            </div>
+
+            <div class="w-full text-center p-t-27 p-b-239" style="margin-top:49%; font-size: 15px;">
+                <span class="text-muted">
+                    Forgot
+                </span>
+                <a href="../view/forgotPassword.html" class="text-dark">
+                    user name / password?
+                </a>
+            </div>
+
+            <div class="w-full text-center" style="margin-top:49%; font-size: 15px;">
+                <a href="signup.html" class="text-dark">
+                    Don't have an account? Sign Up!
+                </a>
+            </div>
+        </form>
+       </div>
+    </div>
+ 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
