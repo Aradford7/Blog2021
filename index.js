@@ -1,0 +1,1 @@
+console.log('Test if node js is connected')
