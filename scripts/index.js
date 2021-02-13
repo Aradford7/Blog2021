@@ -1,1 +1,1 @@
-console.log('Test if node js is connected')
+console.log('Testing node. Index.js is working! Yatta!')
