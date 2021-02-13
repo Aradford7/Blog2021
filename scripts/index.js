@@ -1,1 +1,3 @@
-console.log('Testing node. Index.js is working! Yatta!')
+const firebase = require("firebase");
+// Required for side-effects
+require("firebase/firestore");

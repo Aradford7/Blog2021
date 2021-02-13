@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Aradford7/Blog2021/issues"
   },
-  "homepage": "https://github.com/Aradford7/Blog2021#readme"
+  "homepage": "https://github.com/Aradford7/Blog2021#readme",
+  "dependencies": {
+    "firebase": "^8.2.7"
+  }
 }
